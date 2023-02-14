@@ -62,3 +62,10 @@ document.addEventListener("mousemove", function(event) {
 document.addEventListener("mouseleave", function() {
   text.style.transform = "none";
 });
+
+
+let testimonialsCarousel = document.querySelector('#testimonials');
+
+let carousel = new bootstrap.Carousel(testimonialsCarousel, {
+  interval: 5000
+});

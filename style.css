@@ -47,7 +47,7 @@ footer {
 #text-container h1 {
   font-size: 48px;
   font-weight: bold;
-  color:whitesmoke;
+  color: whitesmoke;
   opacity: 0;
 }
 
@@ -65,15 +65,15 @@ footer {
   border-radius: 5px;
 }
 
-h1{
-  font-size:large;
+h1 {
+  font-size: large;
   color: #0e2a47;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-h2{
-  text-decoration: 2px solid ;
+h2 {
+  text-decoration: 2px solid;
 }
 
 .text-div p {
@@ -135,7 +135,7 @@ li {
 }
 
 .btn-primary {
-  background-color:#0e2a47;
+  background-color: #0e2a47;
   border-color: #333;
   font-size: medium;
 }
@@ -144,9 +144,7 @@ li {
   background-color: white;
   border-color: black;
   color: #0e2a47;
-
 }
-
 
 form {
   background-color: #fff;
@@ -175,12 +173,11 @@ h2 {
   form {
     padding: 20px;
   }
-  
+
   h2 {
     font-size: 36px;
   }
 }
-
 
 .footer {
   position: fixed;
@@ -213,13 +210,12 @@ h2 {
   transform-origin: bottom left;
 }
 
-
 #scroll-to-top-btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
   display: none;
-  background-color:#0e2a47;
+  background-color: #0e2a47;
   color: white;
   border: none;
   outline: none;
@@ -238,7 +234,8 @@ h2 {
   perspective: 1000px;
 }
 
-#3d-text::before, #3d-text::after {
+#3d-text::before,
+#3d-text::after {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -255,4 +252,34 @@ h2 {
 #3d-text::after {
   transform: translateZ(50px);
   text-shadow: 0 0 10px black;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial {
+  flex-basis: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.testimonial-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: small;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.testimonial-name {
+  font-weight: bold;
 }
